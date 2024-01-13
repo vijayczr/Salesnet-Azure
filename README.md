@@ -1,1 +1,0 @@
-# Salesnet-Azure
