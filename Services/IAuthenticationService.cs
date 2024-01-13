@@ -24,7 +24,7 @@ namespace SalesCustom.Services
 {
     public interface IAuthenticationService
     {
-        public List<SnEmployee> UserLogin();
+         public List<SnEmployee> UserLogin();
         public SnEmployee getProfile(int LoginId);
         public Task<LoginAuthResponseModel> LoginAuth(LoginRequestModel requestModel);
         public Task<CommonResponse> UpdatePassword(PasswordChangeReqModel request, string UserId);
